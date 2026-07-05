@@ -1,0 +1,7 @@
+DejaVu Sans and DejaVu Sans Bold are bundled here so the image renderer
+works identically on every operating system (Windows, macOS, Linux, and
+CI runners) without depending on system-installed fonts.
+
+DejaVu fonts are based on the Bitstream Vera fonts and are released under
+a permissive license that explicitly allows redistribution and bundling.
+Full license text: https://dejavu-fonts.github.io/License.html
