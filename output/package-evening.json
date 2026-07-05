@@ -1,0 +1,537 @@
+{
+  "topic_slug": "india-norway-workday",
+  "category": "economy",
+  "poll_question": "Should India **adopt** Norway's workday standard?",
+  "option_yes": "Yes, Adopt Standard",
+  "option_no": "No, Retain Current",
+  "article_title": "India's Workday Debate: Should We Follow Norway's 7.5-Hour Model?",
+  "article_markdown": "A viral LinkedIn post on July 3, 2026, ignited a nationwide discussion comparing India's demanding work culture with Norway's seemingly idyllic 7.5-hour workday. This comparison has sparked a crucial debate: should India consider adopting a shorter, more structured workday standard to combat burnout and enhance employee well-being, or would such a move hinder its economic growth and unique market dynamics?\n\n## Why people say yes\nProponents argue that a shorter workday, like Norway's 7.5-hour standard, could significantly improve work-life balance for Indian employees. With average weekly working hours often exceeding statutory limits, many workers in India face chronic stress and burnout, impacting their mental and physical health. A reduced workday could foster better personal relationships, allow for more leisure time, and promote overall well-being, leading to a happier and healthier workforce.\n\nFurthermore, evidence suggests that shorter work hours do not necessarily equate to lower productivity. Several studies indicate that productivity often declines sharply after 50 hours per week, with additional hours yielding diminishing returns. Countries with shorter average working hours, such as Germany and Denmark, often exhibit higher hourly productivity. Adopting a more efficient, focused workday could therefore boost output quality and employee engagement, as seen in trials where reduced hours maintained or increased productivity.\n\nA shift towards a more humane workday could also enhance India's appeal as a global talent hub. As younger generations increasingly prioritize work-life balance, companies offering better working conditions would be more attractive, helping to retain skilled professionals and draw in international talent. This could foster innovation and a more sustainable corporate culture, moving away from a \"presenteeism\" mindset that often glorifies long hours over actual output.\n\n## Why people say no\nOpponents caution that India's economic context and developmental stage differ significantly from Norway's, making a direct adoption of its workday standard potentially detrimental. India is a developing economy with a large informal sector and unique labor market dynamics, where longer hours are often driven by economic necessities and the need to achieve livable earnings. Imposing a blanket 7.5-hour workday could risk slowing down economic growth and impacting global competitiveness, especially in industries that rely on high output volume.\n\nMoreover, critics argue that a mandatory reduction in working hours could lead to unintended consequences such as increased part-time employment with potentially lower wages and fewer benefits, or compel workers to take on multiple jobs to meet financial needs, thereby increasing stress rather than reducing it. Some research suggests that while shorter workweeks are appealing, they haven't consistently demonstrated long-term productivity increases and could negatively impact a country's GDP.\n\nCulturally, India's work ethic often associates long hours with dedication and commitment, especially in competitive sectors like IT and finance. A sudden, top-down imposition of shorter hours might face resistance from both employers and employees who perceive it as a barrier to career progression or economic advancement. Significant structural and cultural shifts would be required, which could be complex and challenging to implement across diverse industries and regions.\n\n## Key facts\n*   Norway's standard full-time work week is typically 37.5 hours, or 7.5 hours per day, often including an unpaid 30-minute lunch break.\n*   Indian workers average 45.7 hours per week, with statutory limits typically set at 48 hours per week or 9 hours per day.\n*   A significant 59% of Indian employees report experiencing symptoms of burnout, ranking among the highest globally.\n\n## The bottom line\nThe debate over adopting Norway's 7.5-hour workday in India highlights a tension between employee well-being and economic realities. While a shorter workday offers clear benefits in terms of reducing burnout and potentially boosting per-hour productivity, its feasibility and impact within India's distinct economic and social landscape require careful consideration. Any potential reform would need to weigh the aspirations for a healthier workforce against the practical challenges of implementation and its effects on national output and employment structures.",
+  "instagram_caption": "The LinkedIn post went viral, sparking a huge debate! \ud83e\udd2f India's intense work culture vs. Norway's 7.5-hour workday \u2013 what's best for our nation?\nShould India adopt a shorter workday to boost well-being and productivity, or would it hinder our economic growth? \ud83e\udd14\nThe Nation Decides. Cast your vote and share your thoughts!\nFull story -- link in bio.\n#IndiaThinks #WorkLifeBalance #NorwayModel #IndianEconomy #BurnoutCulture #WorkReform #Productivity #LaborLaws #FutureOfWork #DebateIndia",
+  "post": {
+    "template_type": "debate",
+    "kicker": "WORK POLICY",
+    "content": {
+      "question": "Should India **adopt** Norway's workday?",
+      "yes_points": [
+        {
+          "text": "Better work-life **balance**",
+          "icon": "heart"
+        },
+        {
+          "text": "**Boosts** productivity & health",
+          "icon": "arrow_up"
+        },
+        {
+          "text": "Attracts top **talent**",
+          "icon": "globe"
+        }
+      ],
+      "no_points": [
+        {
+          "text": "Unique economic **context**",
+          "icon": "chart"
+        },
+        {
+          "text": "May hinder **growth**",
+          "icon": "arrow_down"
+        },
+        {
+          "text": "Not suited for **India**",
+          "icon": "cross"
+        }
+      ]
+    },
+    "cta": "COMMENT YES OR NO"
+  },
+  "image_prompt": "An Instagram debate post for 'India Thinks' on a dark, sophisticated background with subtle yellow accents. The layout should be 1080x1350px, optimized for mobile.\n**Composition:** A central, bold question: \"Should India **adopt** Norway's workday?\" in a large, clean white font, with 'adopt' in yellow. Below the question, two distinct columns or sections, one for 'YES' and one for 'NO'.\n**YES side:** Labeled \"YES\" in white. Three bullet points below it, each with a small, relevant icon (heart, arrow_up, globe) and short white text (e.g., \"Better work-life **balance**\"). One key word in each point emphasized in yellow.\n**NO side:** Labeled \"NO\" in white. Three bullet points below it, each with a small, relevant icon (chart, arrow_down, cross) and short white text (e.g., \"Unique economic **context**\"). One key word in each point emphasized in yellow.\n**Visual hierarchy:** The central question is the dominant element, followed by the clear 'YES' and 'NO' sections.\n**Branding:** 'India Thinks' logo subtly placed at the top or bottom.\n**CTA:** A clear call to action at the bottom, such as \"COMMENT YOUR VOTE\" or \"THE NATION DECIDES,\" in white.\n**Imagery:** Abstract, clean, professional, and debate-focused. No specific people, but perhaps subtle, blurred outlines of a clock or a map of India/Norway in the background texture. The overall feel should be sharp and attention-grabbing within 3 seconds.",
+  "topic_selection": {
+    "all_candidates": [
+      {
+        "topic": "Should India adopt Norway's 7.5-hour workday standard?",
+        "news_anchor": "A LinkedIn post went viral on July 3, 2026, comparing India's burnout culture with Norway's 7.5-hour workday.",
+        "relatability": 10,
+        "opinion_strength": 9,
+        "comment_potential": 10,
+        "discussion_potential": 10,
+        "shareability": 10,
+        "trend_momentum": 9,
+        "brand_safety": 10,
+        "total_score": 9.63
+      },
+      {
+        "topic": "Should Meta be held more accountable for content?",
+        "news_anchor": "The government on July 5, 2026, issued a notice to Meta over alleged Instagram ads promoting child sexual abuse content.",
+        "relatability": 9,
+        "opinion_strength": 10,
+        "comment_potential": 10,
+        "discussion_potential": 9,
+        "shareability": 10,
+        "trend_momentum": 9,
+        "brand_safety": 7,
+        "total_score": 9.44
+      },
+      {
+        "topic": "Should E20 petrol be clearly labelled for mileage drop?",
+        "news_anchor": "Industry experts on July 4, 2026, confirmed E20 fuel gives 3-4% lower mileage, sparking ongoing debate on consumer information.",
+        "relatability": 10,
+        "opinion_strength": 9,
+        "comment_potential": 9,
+        "discussion_potential": 9,
+        "shareability": 9,
+        "trend_momentum": 9,
+        "brand_safety": 10,
+        "total_score": 9.13
+      },
+      {
+        "topic": "Should AI-driven layoffs be restricted in IT?",
+        "news_anchor": "Reports on July 3-4, 2026, show AI-related hiring up 16% but overall IT job postings down 3% in India, impacting traditional roles.",
+        "relatability": 9,
+        "opinion_strength": 9,
+        "comment_potential": 9,
+        "discussion_potential": 9,
+        "shareability": 9,
+        "trend_momentum": 9,
+        "brand_safety": 10,
+        "total_score": 9.0
+      },
+      {
+        "topic": "Do new debt recovery rules protect borrowers?",
+        "news_anchor": "New RBI guidelines, effective July 2026, introduce vicarious liability for lenders and mandate certification for recovery agents.",
+        "relatability": 9,
+        "opinion_strength": 9,
+        "comment_potential": 9,
+        "discussion_potential": 9,
+        "shareability": 9,
+        "trend_momentum": 8,
+        "brand_safety": 10,
+        "total_score": 8.75
+      },
+      {
+        "topic": "Should RBI compensate all digital fraud losses?",
+        "news_anchor": "The RBI proposed new draft rules on July 1, 2026, to safeguard against digital banking fraud, including compensation for small-value frauds up to \u20b950,000.",
+        "relatability": 9,
+        "opinion_strength": 9,
+        "comment_potential": 9,
+        "discussion_potential": 9,
+        "shareability": 8,
+        "trend_momentum": 8,
+        "brand_safety": 10,
+        "total_score": 8.65
+      },
+      {
+        "topic": "Is capping UPI balance checks justified?",
+        "news_anchor": "NPCI's updated rules, discussed in June/July 2026 news, set daily caps of 50 balance checks and 25 linked account views per UPI app.",
+        "relatability": 10,
+        "opinion_strength": 8,
+        "comment_potential": 8,
+        "discussion_potential": 8,
+        "shareability": 8,
+        "trend_momentum": 8,
+        "brand_safety": 10,
+        "total_score": 8.26
+      },
+      {
+        "topic": "Should UPI autopay only run during off-peak hours?",
+        "news_anchor": "NPCI's updated rules, discussed in June/July 2026 news, mandate UPI autopay transactions to be processed only between 12 AM and 7 AM.",
+        "relatability": 9,
+        "opinion_strength": 8,
+        "comment_potential": 8,
+        "discussion_potential": 8,
+        "shareability": 8,
+        "trend_momentum": 8,
+        "brand_safety": 10,
+        "total_score": 8.13
+      },
+      {
+        "topic": "Are new UPI authentication rules too cumbersome?",
+        "news_anchor": "From April 1, 2026, all domestic digital payments, including UPI, are required to use two-factor authentication, a rule frequently discussed in recent banking news.",
+        "relatability": 10,
+        "opinion_strength": 8,
+        "comment_potential": 8,
+        "discussion_potential": 8,
+        "shareability": 8,
+        "trend_momentum": 7,
+        "brand_safety": 10,
+        "total_score": 8.01
+      },
+      {
+        "topic": "Is VB-G-RAM-G truly boosting rural employment?",
+        "news_anchor": "The Union Rural Development Minister on July 5, 2026, reviewed the nationwide rollout of VB-G-RAM-G from July 1, 2026, aiming for 3.5 Crore jobs and a \u20b9300 minimum wage.",
+        "relatability": 8,
+        "opinion_strength": 8,
+        "comment_potential": 8,
+        "discussion_potential": 8,
+        "shareability": 7,
+        "trend_momentum": 8,
+        "brand_safety": 10,
+        "total_score": 7.9
+      },
+      {
+        "topic": "Are UPI credit line payments a good idea?",
+        "news_anchor": "News in June/July 2026 discussed that from August 31, 2025, UPI users can make payments and withdrawals using pre-approved credit lines.",
+        "relatability": 9,
+        "opinion_strength": 8,
+        "comment_potential": 8,
+        "discussion_potential": 8,
+        "shareability": 8,
+        "trend_momentum": 7,
+        "brand_safety": 10,
+        "total_score": 7.88
+      },
+      {
+        "topic": "Is a new urban transport policy needed for India?",
+        "news_anchor": "Experts on June 8, 2026, called for a renewed urban transport framework as India's vehicle fleet crossed 413 million.",
+        "relatability": 9,
+        "opinion_strength": 8,
+        "comment_potential": 8,
+        "discussion_potential": 8,
+        "shareability": 8,
+        "trend_momentum": 7,
+        "brand_safety": 10,
+        "total_score": 7.88
+      },
+      {
+        "topic": "Will clean mobility incentives significantly reduce pollution?",
+        "news_anchor": "The Union Cabinet approved a \u20b99,585 crore clean mobility incentive scheme in early June 2026 to replace older commercial vehicles in Delhi-NCR.",
+        "relatability": 8,
+        "opinion_strength": 8,
+        "comment_potential": 8,
+        "discussion_potential": 8,
+        "shareability": 7,
+        "trend_momentum": 7,
+        "brand_safety": 10,
+        "total_score": 7.65
+      },
+      {
+        "topic": "Is the 30-day IRN reporting window for GST practical?",
+        "news_anchor": "New GST rules applicable from July 1, 2026, include a 30-day IRN reporting window for businesses with over \u20b910 crore AATO.",
+        "relatability": 7,
+        "opinion_strength": 7,
+        "comment_potential": 7,
+        "discussion_potential": 7,
+        "shareability": 6,
+        "trend_momentum": 8,
+        "brand_safety": 10,
+        "total_score": 7.15
+      },
+      {
+        "topic": "Should emergency gas curbs be withdrawn quickly?",
+        "news_anchor": "The government on July 5, 2026, withdrew emergency gas curbs imposed during the Hormuz disruption as LNG supplies normalized.",
+        "relatability": 7,
+        "opinion_strength": 7,
+        "comment_potential": 7,
+        "discussion_potential": 7,
+        "shareability": 6,
+        "trend_momentum": 8,
+        "brand_safety": 10,
+        "total_score": 7.15
+      },
+      {
+        "topic": "Is the new foreign disclosure scheme effective?",
+        "news_anchor": "The Government of India will roll out the Foreign Disclosure Scheme 2026 from July 1, offering a six-month window to declare undisclosed foreign assets and income.",
+        "relatability": 7,
+        "opinion_strength": 7,
+        "comment_potential": 7,
+        "discussion_potential": 7,
+        "shareability": 6,
+        "trend_momentum": 7,
+        "brand_safety": 10,
+        "total_score": 6.9
+      },
+      {
+        "topic": "Should mandatory multi-factor authentication be universal for GST?",
+        "news_anchor": "New GST rules applicable from July 1, 2026, include mandatory multi-factor authentication for all portal users since April 1, 2025.",
+        "relatability": 7,
+        "opinion_strength": 7,
+        "comment_potential": 7,
+        "discussion_potential": 7,
+        "shareability": 6,
+        "trend_momentum": 7,
+        "brand_safety": 10,
+        "total_score": 6.9
+      },
+      {
+        "topic": "Will higher prices boost compressed biogas production effectively?",
+        "news_anchor": "India is set to introduce a program on July 2, 2026, to spur compressed biogas production through higher guaranteed purchase prices and subsidies.",
+        "relatability": 7,
+        "opinion_strength": 7,
+        "comment_potential": 7,
+        "discussion_potential": 7,
+        "shareability": 6,
+        "trend_momentum": 7,
+        "brand_safety": 10,
+        "total_score": 6.9
+      },
+      {
+        "topic": "Was postponing capital market rules justified?",
+        "news_anchor": "The RBI on July 5, 2026, postponed the implementation of new capital market exposure rules by three months to July 1, 2026, following industry requests.",
+        "relatability": 6,
+        "opinion_strength": 6,
+        "comment_potential": 6,
+        "discussion_potential": 6,
+        "shareability": 5,
+        "trend_momentum": 8,
+        "brand_safety": 10,
+        "total_score": 6.4
+      },
+      {
+        "topic": "Should all NBFCs require RBI registration?",
+        "news_anchor": "From July 1, 2026, the RBI is reclassifying NBFCs into Type I (potentially exempt from registration) and Type II categories.",
+        "relatability": 6,
+        "opinion_strength": 6,
+        "comment_potential": 6,
+        "discussion_potential": 6,
+        "shareability": 5,
+        "trend_momentum": 7,
+        "brand_safety": 10,
+        "total_score": 6.15
+      }
+    ],
+    "eligible_candidates": [
+      {
+        "topic": "Should India adopt Norway's 7.5-hour workday standard?",
+        "news_anchor": "A LinkedIn post went viral on July 3, 2026, comparing India's burnout culture with Norway's 7.5-hour workday.",
+        "relatability": 10,
+        "opinion_strength": 9,
+        "comment_potential": 10,
+        "discussion_potential": 10,
+        "shareability": 10,
+        "trend_momentum": 9,
+        "brand_safety": 10,
+        "total_score": 9.63
+      },
+      {
+        "topic": "Should E20 petrol be clearly labelled for mileage drop?",
+        "news_anchor": "Industry experts on July 4, 2026, confirmed E20 fuel gives 3-4% lower mileage, sparking ongoing debate on consumer information.",
+        "relatability": 10,
+        "opinion_strength": 9,
+        "comment_potential": 9,
+        "discussion_potential": 9,
+        "shareability": 9,
+        "trend_momentum": 9,
+        "brand_safety": 10,
+        "total_score": 9.13
+      },
+      {
+        "topic": "Should AI-driven layoffs be restricted in IT?",
+        "news_anchor": "Reports on July 3-4, 2026, show AI-related hiring up 16% but overall IT job postings down 3% in India, impacting traditional roles.",
+        "relatability": 9,
+        "opinion_strength": 9,
+        "comment_potential": 9,
+        "discussion_potential": 9,
+        "shareability": 9,
+        "trend_momentum": 9,
+        "brand_safety": 10,
+        "total_score": 9.0
+      },
+      {
+        "topic": "Do new debt recovery rules protect borrowers?",
+        "news_anchor": "New RBI guidelines, effective July 2026, introduce vicarious liability for lenders and mandate certification for recovery agents.",
+        "relatability": 9,
+        "opinion_strength": 9,
+        "comment_potential": 9,
+        "discussion_potential": 9,
+        "shareability": 9,
+        "trend_momentum": 8,
+        "brand_safety": 10,
+        "total_score": 8.75
+      },
+      {
+        "topic": "Should RBI compensate all digital fraud losses?",
+        "news_anchor": "The RBI proposed new draft rules on July 1, 2026, to safeguard against digital banking fraud, including compensation for small-value frauds up to \u20b950,000.",
+        "relatability": 9,
+        "opinion_strength": 9,
+        "comment_potential": 9,
+        "discussion_potential": 9,
+        "shareability": 8,
+        "trend_momentum": 8,
+        "brand_safety": 10,
+        "total_score": 8.65
+      },
+      {
+        "topic": "Is capping UPI balance checks justified?",
+        "news_anchor": "NPCI's updated rules, discussed in June/July 2026 news, set daily caps of 50 balance checks and 25 linked account views per UPI app.",
+        "relatability": 10,
+        "opinion_strength": 8,
+        "comment_potential": 8,
+        "discussion_potential": 8,
+        "shareability": 8,
+        "trend_momentum": 8,
+        "brand_safety": 10,
+        "total_score": 8.26
+      },
+      {
+        "topic": "Should UPI autopay only run during off-peak hours?",
+        "news_anchor": "NPCI's updated rules, discussed in June/July 2026 news, mandate UPI autopay transactions to be processed only between 12 AM and 7 AM.",
+        "relatability": 9,
+        "opinion_strength": 8,
+        "comment_potential": 8,
+        "discussion_potential": 8,
+        "shareability": 8,
+        "trend_momentum": 8,
+        "brand_safety": 10,
+        "total_score": 8.13
+      },
+      {
+        "topic": "Are new UPI authentication rules too cumbersome?",
+        "news_anchor": "From April 1, 2026, all domestic digital payments, including UPI, are required to use two-factor authentication, a rule frequently discussed in recent banking news.",
+        "relatability": 10,
+        "opinion_strength": 8,
+        "comment_potential": 8,
+        "discussion_potential": 8,
+        "shareability": 8,
+        "trend_momentum": 7,
+        "brand_safety": 10,
+        "total_score": 8.01
+      },
+      {
+        "topic": "Is VB-G-RAM-G truly boosting rural employment?",
+        "news_anchor": "The Union Rural Development Minister on July 5, 2026, reviewed the nationwide rollout of VB-G-RAM-G from July 1, 2026, aiming for 3.5 Crore jobs and a \u20b9300 minimum wage.",
+        "relatability": 8,
+        "opinion_strength": 8,
+        "comment_potential": 8,
+        "discussion_potential": 8,
+        "shareability": 7,
+        "trend_momentum": 8,
+        "brand_safety": 10,
+        "total_score": 7.9
+      },
+      {
+        "topic": "Are UPI credit line payments a good idea?",
+        "news_anchor": "News in June/July 2026 discussed that from August 31, 2025, UPI users can make payments and withdrawals using pre-approved credit lines.",
+        "relatability": 9,
+        "opinion_strength": 8,
+        "comment_potential": 8,
+        "discussion_potential": 8,
+        "shareability": 8,
+        "trend_momentum": 7,
+        "brand_safety": 10,
+        "total_score": 7.88
+      },
+      {
+        "topic": "Is a new urban transport policy needed for India?",
+        "news_anchor": "Experts on June 8, 2026, called for a renewed urban transport framework as India's vehicle fleet crossed 413 million.",
+        "relatability": 9,
+        "opinion_strength": 8,
+        "comment_potential": 8,
+        "discussion_potential": 8,
+        "shareability": 8,
+        "trend_momentum": 7,
+        "brand_safety": 10,
+        "total_score": 7.88
+      },
+      {
+        "topic": "Will clean mobility incentives significantly reduce pollution?",
+        "news_anchor": "The Union Cabinet approved a \u20b99,585 crore clean mobility incentive scheme in early June 2026 to replace older commercial vehicles in Delhi-NCR.",
+        "relatability": 8,
+        "opinion_strength": 8,
+        "comment_potential": 8,
+        "discussion_potential": 8,
+        "shareability": 7,
+        "trend_momentum": 7,
+        "brand_safety": 10,
+        "total_score": 7.65
+      },
+      {
+        "topic": "Is the 30-day IRN reporting window for GST practical?",
+        "news_anchor": "New GST rules applicable from July 1, 2026, include a 30-day IRN reporting window for businesses with over \u20b910 crore AATO.",
+        "relatability": 7,
+        "opinion_strength": 7,
+        "comment_potential": 7,
+        "discussion_potential": 7,
+        "shareability": 6,
+        "trend_momentum": 8,
+        "brand_safety": 10,
+        "total_score": 7.15
+      },
+      {
+        "topic": "Should emergency gas curbs be withdrawn quickly?",
+        "news_anchor": "The government on July 5, 2026, withdrew emergency gas curbs imposed during the Hormuz disruption as LNG supplies normalized.",
+        "relatability": 7,
+        "opinion_strength": 7,
+        "comment_potential": 7,
+        "discussion_potential": 7,
+        "shareability": 6,
+        "trend_momentum": 8,
+        "brand_safety": 10,
+        "total_score": 7.15
+      },
+      {
+        "topic": "Is the new foreign disclosure scheme effective?",
+        "news_anchor": "The Government of India will roll out the Foreign Disclosure Scheme 2026 from July 1, offering a six-month window to declare undisclosed foreign assets and income.",
+        "relatability": 7,
+        "opinion_strength": 7,
+        "comment_potential": 7,
+        "discussion_potential": 7,
+        "shareability": 6,
+        "trend_momentum": 7,
+        "brand_safety": 10,
+        "total_score": 6.9
+      },
+      {
+        "topic": "Should mandatory multi-factor authentication be universal for GST?",
+        "news_anchor": "New GST rules applicable from July 1, 2026, include mandatory multi-factor authentication for all portal users since April 1, 2025.",
+        "relatability": 7,
+        "opinion_strength": 7,
+        "comment_potential": 7,
+        "discussion_potential": 7,
+        "shareability": 6,
+        "trend_momentum": 7,
+        "brand_safety": 10,
+        "total_score": 6.9
+      },
+      {
+        "topic": "Will higher prices boost compressed biogas production effectively?",
+        "news_anchor": "India is set to introduce a program on July 2, 2026, to spur compressed biogas production through higher guaranteed purchase prices and subsidies.",
+        "relatability": 7,
+        "opinion_strength": 7,
+        "comment_potential": 7,
+        "discussion_potential": 7,
+        "shareability": 6,
+        "trend_momentum": 7,
+        "brand_safety": 10,
+        "total_score": 6.9
+      },
+      {
+        "topic": "Was postponing capital market rules justified?",
+        "news_anchor": "The RBI on July 5, 2026, postponed the implementation of new capital market exposure rules by three months to July 1, 2026, following industry requests.",
+        "relatability": 6,
+        "opinion_strength": 6,
+        "comment_potential": 6,
+        "discussion_potential": 6,
+        "shareability": 5,
+        "trend_momentum": 8,
+        "brand_safety": 10,
+        "total_score": 6.4
+      },
+      {
+        "topic": "Should all NBFCs require RBI registration?",
+        "news_anchor": "From July 1, 2026, the RBI is reclassifying NBFCs into Type I (potentially exempt from registration) and Type II categories.",
+        "relatability": 6,
+        "opinion_strength": 6,
+        "comment_potential": 6,
+        "discussion_potential": 6,
+        "shareability": 5,
+        "trend_momentum": 7,
+        "brand_safety": 10,
+        "total_score": 6.15
+      }
+    ],
+    "winner": {
+      "topic": "Should India adopt Norway's 7.5-hour workday standard?",
+      "news_anchor": "A LinkedIn post went viral on July 3, 2026, comparing India's burnout culture with Norway's 7.5-hour workday.",
+      "relatability": 10,
+      "opinion_strength": 9,
+      "comment_potential": 10,
+      "discussion_potential": 10,
+      "shareability": 10,
+      "trend_momentum": 9,
+      "brand_safety": 10,
+      "total_score": 9.63
+    }
+  },
+  "slot": "evening",
+  "post_image_file": "output/post-evening-2026-07-05.jpg",
+  "story_image_file": "output/story-evening-2026-07-05.jpg",
+  "blog_post_path": "blog/posts/2026-07-05-evening-india-norway-workday.html"
+}
