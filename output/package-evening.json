@@ -1,78 +1,54 @@
 {
-  "topic_slug": "office-weather-mandate",
-  "category": "society",
-  "poll_question": "Should companies **mandate** office presence?",
-  "option_yes": "Mandate presence",
-  "option_no": "Prioritize safety",
-  "article_title": "Pune Rains: Should Companies Mandate Office Presence During Extreme Weather?",
-  "article_markdown": "A recent viral WhatsApp chat highlighted a heated debate when a manager in Pune insisted an employee come to the office despite heavy rains and difficult commuting conditions. This incident, occurring on July 9, 2026, has reignited discussions across India about corporate responsibility, employee safety, and the necessity of physical presence during extreme weather events. As monsoons become more erratic and intense, the question of whether companies should mandate office attendance during such times becomes increasingly critical.\n\n## Why people say yes\n\nProponents of mandating office presence often emphasize the importance of business continuity. For many organizations, particularly those in essential services or client-facing roles, a full day's disruption can lead to significant financial losses and reputational damage. Ensuring staff presence helps maintain operational momentum and meet crucial deadlines, protecting business interests and customer commitments.\n\nAnother argument centers on team collaboration and oversight. While remote work has proven effective, some argue that in-person interaction fosters better teamwork, spontaneous innovation, and more effective supervision. Managers may feel that face-to-face communication is indispensable for certain tasks and for maintaining a cohesive work culture, especially during critical periods.\n\nFurthermore, some companies believe that a consistent office presence reinforces discipline and productivity. They might argue that despite weather challenges, employees are expected to demonstrate commitment. Companies invest in office infrastructure and resources, and mandating attendance ensures these investments are utilized, while also potentially preventing a drop in output that *could* be associated with widespread remote work.\n\n## Why people say no\n\nOpponents primarily stress employee safety and well-being as the paramount concern. Extreme weather, such as heavy rains and floods, poses significant risks, including dangerous commutes, increased chances of accidents, and potential health hazards like waterborne diseases or injuries from falling debris. Forcing employees to travel in such conditions can expose them to avoidable dangers, leading to stress and potential harm.\n\nMany also argue that employers have an ethical and legal \"duty of care\" towards their workforce. While India's labor laws on extreme weather are largely advisory rather than strictly enforceable for all sectors, state disaster management authorities often urge companies to prioritize employee safety by encouraging work-from-home during severe weather alerts. Disregarding these advisories could lead to moral and even legal repercussions under broader safety provisions.\n\nFinally, the widespread adoption of remote work capabilities, accelerated by recent global events, demonstrates that physical office presence isn't always essential for productivity. Many roles can be performed effectively from home, leveraging technology to maintain communication and workflow. Mandating office attendance when remote work is feasible is seen by some as an outdated and inflexible approach, failing to acknowledge modern work models and technological advancements.\n\n## Key facts\n\n*   Maharashtra authorities, including for Pune, have issued advisories urging private companies to adopt work-from-home policies during heavy monsoon rains and red alerts, citing potential legal implications under the Disaster Management Act.\n*   India's labor codes, such as the Occupational Safety, Health and Working Conditions Code, often lack explicit and enforceable mandates regarding employee protection during extreme weather, relying more on advisories and recommendations.\n*   Many Indian companies are increasingly integrating weather-related risks into their Business Continuity Management (BCM) and Business Continuity Plans (BCPs) to ensure operational resilience and employee safety during disruptions.\n\n## The bottom line\n\nThe debate over mandating office presence during extreme weather highlights a tension between business imperatives and employee welfare. While companies strive to maintain operations, the risks associated with severe weather for commuting employees are undeniable. Striking a balance involves clear policies, leveraging remote work capabilities, and prioritizing safety advisories from authorities, ultimately fostering a resilient and responsible corporate culture.",
-  "instagram_caption": "Heavy rains in Pune, a manager demanding office presence. \ud83c\udf27\ufe0f\ud83d\ude8c A viral WhatsApp chat sparked a national debate: Should companies **mandate** office presence during extreme weather?\n\nThis isn't just about a single incident; it's about business continuity vs. employee safety. Some argue for uninterrupted operations and team collaboration, while others prioritize workers' well-being and the feasibility of remote work. With increasing weather unpredictability, how should companies adapt?\n\nFull story \u2013 link in bio.\n\n#IndiaThinks #PuneRains #WorkFromHome #EmployeeSafety #ExtremeWeather #CorporateResponsibility #MonsoonSeason #WFH #India",
+  "topic_slug": "upi-small-charges",
+  "category": "economy",
+  "poll_question": "Should UPI transactions below \u20b9100 be charged?",
+  "option_yes": "Yes, charge it",
+  "option_no": "No, keep free",
+  "article_title": "The Great UPI Debate: Should Small Transactions Carry a Fee?",
+  "article_markdown": "The National Payments Corporation of India (NPCI) recently initiated a pilot program to introduce nominal transaction charges on UPI payments below \u20b9100, aiming to cover the operational costs of the robust digital payment system. This move has reignited a critical debate across India: should the convenience and widespread adoption of UPI, particularly for micro-transactions, come with a price tag? The outcome of this pilot could significantly reshape India's digital payment landscape, impacting millions of users and small businesses who rely on UPI daily.\n\n## Why people say yes\n\nAdvocates for imposing charges argue that a fee, even a nominal one, is crucial for the long-term **sustainability** of the UPI ecosystem. While the NPCI itself operates efficiently, processing billions of transactions, the broader infrastructure\u2014including banks and payment service providers (PSPs)\u2014incurs significant costs for maintenance, cybersecurity, fraud detection, and customer support. Government subsidies currently only cover a fraction of these operational expenses, leading to a substantial funding gap for industry players.\n\nIntroducing charges could also **incentivize** further innovation and investment within the digital payments space. With a stable revenue stream, banks and fintech companies would have more resources to develop new features, enhance security, and expand UPI's reach into underserved areas. Without a clear cost-recovery mechanism, the financial strain on these entities threatens to hinder growth and limit the evolution of the platform.\n\nFurthermore, proponents suggest that UPI, like other payment systems such as credit cards, IMPS, and NEFT, should have a revenue model that reflects its operational demands. A tiered approach, where small transactions might incur a very minimal fee or remain free while larger or commercial transactions are charged, is often cited as a balanced solution. This could ensure that those who benefit most from the system contribute to its upkeep, without unduly burdening the most vulnerable users.\n\n## Why people say no\n\nOpponents strongly contend that imposing charges on small UPI transactions would severely **undermine** financial inclusion, a cornerstone of UPI's success. The zero-cost nature of UPI has been instrumental in bringing millions of low-income and rural users into the digital economy, reducing reliance on cash. Introducing fees could deter these users, potentially pushing them back to less formal or cash-based transactions, thereby reversing years of progress.\n\nPublic sentiment overwhelmingly favors keeping UPI free. Surveys indicate that a significant majority, up to 75% of users, might reduce or completely stop using UPI if transaction fees are implemented, even if nominal. This price sensitivity, particularly in a high-frequency, low-ticket value ecosystem like India's, highlights the risk of widespread user exodus and a significant drop in digital payment volumes.\n\nMany view UPI as a **public utility** and a national asset that offers substantial societal and economic benefits beyond direct revenue. It reduces the costs associated with printing and handling cash, increases transparency, and improves tax compliance. From this perspective, the government and the Reserve Bank of India (RBI) should continue to bear the costs, perhaps through subsidies or by having banks absorb them, given the broader economic advantages derived from a robust and free digital payment infrastructure.\n\n## Key facts\n\n*   A parliamentary committee has recommended tiered charges for UPI transactions to address a significant funding gap for ecosystem players.\n*   Surveys show 70-75% of users may stop using UPI if transaction fees are introduced.\n*   The average UPI transaction value has decreased, underscoring its use for small, everyday purchases.\n\n## The bottom line\n\nThe debate over UPI charges for small transactions balances the critical need for ecosystem sustainability against the imperative of financial inclusion and widespread public adoption. While operational costs are a genuine concern for payment providers, the potential impact on user behavior and the foundational principle of UPI as a digital public good cannot be overlooked. Finding a balanced solution that ensures the long-term viability of UPI without alienating its vast user base remains a complex challenge for policymakers and stakeholders alike.",
+  "instagram_caption": "NPCI's pilot program for UPI charges below \u20b9100 is sparking a nationwide debate! Should your small UPI payments now carry a fee to cover operational costs and ensure system sustainability, or should they remain free to protect financial inclusion and widespread digital adoption? Tell us what you think in the comments! \ud83d\udc47 #IndiaThinks #UPI #DigitalPayments #FinancialInclusion #Economy #NPCI #CashlessIndia #Fintech #Debate #India\n\nFull story -- link in bio.",
   "post": {
     "template_type": "debate",
-    "kicker": "WORKPLACE POLICY",
+    "kicker": "PAYMENT POLICY",
     "content": {
-      "question": "Should companies **mandate** office presence?",
+      "question": "Should UPI **charges** apply for small transactions?",
       "yes_points": [
         {
-          "text": "Business continuity **crucial**.",
+          "text": "Cover **operational** costs",
+          "icon": "money"
+        },
+        {
+          "text": "Fund future **innovation**",
           "icon": "gear"
         },
         {
-          "text": "Team collaboration **improves**.",
-          "icon": "person"
-        },
-        {
-          "text": "Client service **uninterrupted**.",
-          "icon": "check"
+          "text": "Ensure ecosystem **sustainability**",
+          "icon": "chart"
         }
       ],
       "no_points": [
         {
-          "text": "Employee safety **first**.",
-          "icon": "shield"
+          "text": "Hinders **financial** inclusion",
+          "icon": "person"
         },
         {
-          "text": "Health risks, **accidents**.",
-          "icon": "warning"
+          "text": "Users prefer **free** service",
+          "icon": "heart"
         },
         {
-          "text": "Remote work **possible**.",
+          "text": "UPI is **public** good",
           "icon": "globe"
         }
       ]
     },
     "cta": "COMMENT YES OR NO"
   },
-  "image_prompt": "An Instagram post for a debate page titled 'India Thinks', 1080x1350px. The background is dark, with a single yellow accent color used for emphasized words. The layout should be split into a top question section and two distinct side-by-side columns for 'Yes' and 'No' arguments. The main question, 'Should companies **mandate** office presence?', is prominently displayed at the top, with 'mandate' in yellow. Below, two vertical columns, labeled 'YES' and 'NO' respectively, each contain three short bullet points. Each bullet point has an icon (gear, person, check for 'Yes'; shield, warning, globe for 'No') and short text, with one word emphasized in yellow (e.g., 'Business continuity **crucial**'). The 'India Thinks' logo is subtly placed at the bottom, along with a clear 'COMMENT BELOW' call to action. The overall aesthetic is clean, bold typography, and a strong visual hierarchy suitable for a debate topic on a social media feed. Visual elements should subtly reflect extreme weather, like blurred rain effects in the background or subtle water splashes, without being distracting. The layout is balanced to present both sides equally.",
+  "image_prompt": "An Instagram debate post (1080x1350px) with a dark, deep blue-purple background. At the top, a bold, uppercase kicker 'PAYMENT POLICY' in white, slightly smaller font. Below it, the main question 'Should UPI **charges** apply for small transactions?' prominently displayed in white, with the word 'charges' highlighted in a vibrant yellow accent color. The layout is split vertically or horizontally for two distinct sections. On the left/top side, labeled 'YES' in bold white text with a yellow underline, there are three bullet points in white, each with a small, relevant icon (money, gear, chart) to its left. Key words within points are highlighted in yellow using double asterisks (e.g., '**operational**'). On the right/bottom side, labeled 'NO' in bold white text with a yellow underline, there are three corresponding bullet points in white, each with a small, relevant icon (person, heart, globe) to its left. Key words within points are highlighted in yellow (e.g., '**financial**'). All text is clean, sans-serif, and highly readable. The bottom section of the image features the 'India Thinks' logo (stylized text in white, possibly with a subtle yellow accent) on the left, and a clear 'COMMENT YOUR VOTE \ud83d\udc47' call to action in white on the right, encouraging engagement. The overall aesthetic is modern, clean, and uses the yellow accent color sparingly for emphasis. Visual hierarchy should make the question and points immediately understandable.",
   "topic_selection": {
     "all_candidates": [
       {
-        "topic": "Should companies mandate office presence during extreme weather?",
-        "news_anchor": "A viral WhatsApp chat showed a manager insisting an employee come to office during heavy Pune rains (July 9, 2026).",
-        "relatability": 10,
-        "opinion_strength": 10,
-        "comment_potential": 10,
-        "discussion_potential": 10,
-        "shareability": 10,
-        "trend_momentum": 10,
-        "brand_safety": 10,
-        "total_score": 10.0
-      },
-      {
-        "topic": "Should government control fuel prices despite global changes?",
-        "news_anchor": "Petrol/diesel prices remained unchanged despite global crude fluctuations, prompting Arvind Kejriwal's demand for lower prices (July 9, 2026).",
-        "relatability": 10,
-        "opinion_strength": 10,
-        "comment_potential": 10,
-        "discussion_potential": 9,
-        "shareability": 9,
-        "trend_momentum": 9,
-        "brand_safety": 9,
-        "total_score": 9.47
-      },
-      {
-        "topic": "Are Indian cities prepared for extreme monsoon events?",
-        "news_anchor": "Monsoon fury battered India, causing floods in cities like Delhi, Gujarat, and Maharashtra this past week (July 9, 2026).",
+        "topic": "Should UPI charges apply for small transactions?",
+        "news_anchor": "The National Payments Corporation of India (NPCI) introduced on July 5, 2026, a pilot program for nominal transaction charges on UPI payments below \u20b9100, aiming to cover operational costs.",
         "relatability": 10,
         "opinion_strength": 9,
         "comment_potential": 9,
@@ -83,44 +59,44 @@
         "total_score": 9.38
       },
       {
-        "topic": "Are AI-driven layoffs justified for productivity gains?",
-        "news_anchor": "Estimates show 25,000-35,000 jobs could be cut in Indian IT in 2026 due to AI-driven productivity improvements (July 9, 2026).",
-        "relatability": 9,
+        "topic": "Should banks bear full liability for UPI fraud?",
+        "news_anchor": "After a surge in reported UPI frauds last week (July 3-9, 2026), a consumer protection forum urged the Reserve Bank of India (RBI) to strengthen bank liability in such cases.",
+        "relatability": 10,
         "opinion_strength": 9,
         "comment_potential": 9,
         "discussion_potential": 9,
         "shareability": 9,
-        "trend_momentum": 10,
-        "brand_safety": 9,
-        "total_score": 9.25
+        "trend_momentum": 9,
+        "brand_safety": 10,
+        "total_score": 9.13
       },
       {
-        "topic": "Should restaurants offer free food as a marketing strategy?",
-        "news_anchor": "A viral video of people queuing for free food in Bengaluru sparked debate about the ethics of such marketing (July 3, 2026).",
+        "topic": "Should board exam marks weigh more for college entry?",
+        "news_anchor": "The Ministry of Education on July 6, 2026, released a draft policy suggesting increased weightage for Class 12 board examination scores in university admissions, reducing reliance on entrance tests.",
         "relatability": 9,
         "opinion_strength": 9,
         "comment_potential": 9,
         "discussion_potential": 9,
         "shareability": 9,
         "trend_momentum": 9,
-        "brand_safety": 9,
+        "brand_safety": 10,
         "total_score": 9.0
       },
       {
-        "topic": "Should social media platforms be fully liable for CSEM?",
-        "news_anchor": "India directed Instagram to disable CSEM ads/content and report within 7 days (July 6, 2026).",
-        "relatability": 8,
+        "topic": "Should companies enforce hybrid work models?",
+        "news_anchor": "A major IT conglomerate on July 3, 2026, mandated a '3 days in office, 2 days remote' hybrid work model for all its employees, sparking mixed reactions across the sector.",
+        "relatability": 9,
         "opinion_strength": 9,
         "comment_potential": 9,
-        "discussion_potential": 8,
+        "discussion_potential": 9,
         "shareability": 9,
-        "trend_momentum": 10,
-        "brand_safety": 8,
-        "total_score": 8.94
+        "trend_momentum": 9,
+        "brand_safety": 10,
+        "total_score": 9.0
       },
       {
-        "topic": "Is a \"top to bottom\" NTA revamp sufficient to fix exam issues?",
-        "news_anchor": "After recent exam controversies, a \"top to bottom\" revamp of the National Testing Agency (NTA) for NEET-UG 2027 was announced (July 9, 2026).",
+        "topic": "Should social media influencers disclose all paid promotions?",
+        "news_anchor": "Following a viral debate (July 5-9, 2026) regarding undisclosed brand collaborations by prominent Indian influencers, the Advertising Standards Council of India (ASCI) reiterated stricter disclosure norms.",
         "relatability": 9,
         "opinion_strength": 8,
         "comment_potential": 9,
@@ -131,190 +107,190 @@
         "total_score": 8.88
       },
       {
-        "topic": "Should companies face stricter penalties for misleading food labels?",
-        "news_anchor": "FSSAI issued notices to Lotte India and two other companies for misleading claims and labelling violations (July 8, 2026).",
-        "relatability": 9,
-        "opinion_strength": 9,
-        "comment_potential": 9,
-        "discussion_potential": 8,
+        "topic": "Is the new digital ID verification process too intrusive?",
+        "news_anchor": "The Ministry of Electronics and Information Technology launched on July 9, 2026, a new unified digital identity verification system, making several government services accessible after biometric authentication.",
+        "relatability": 8,
+        "opinion_strength": 8,
+        "comment_potential": 8,
+        "discussion_potential": 9,
         "shareability": 8,
         "trend_momentum": 9,
-        "brand_safety": 9,
-        "total_score": 8.72
+        "brand_safety": 10,
+        "total_score": 8.43
       },
       {
-        "topic": "Should government monitor social media feature rollouts?",
-        "news_anchor": "Government granted Meta three more days to explain its WhatsApp username rollout (July 6, 2026).",
+        "topic": "Should online streaming services face higher GST?",
+        "news_anchor": "The GST Council, following its meeting on July 8, 2026, reportedly discussed proposals to increase GST rates on online streaming and digital content services.",
         "relatability": 9,
         "opinion_strength": 8,
         "comment_potential": 8,
         "discussion_potential": 8,
         "shareability": 8,
-        "trend_momentum": 8,
-        "brand_safety": 9,
-        "total_score": 8.13
+        "trend_momentum": 9,
+        "brand_safety": 10,
+        "total_score": 8.38
       },
       {
-        "topic": "Is integrating AI agents into search ads beneficial for consumers?",
-        "news_anchor": "Google launched an AI agent within Search ads in India, expanding Gemini-powered ad tools (July 9, 2026).",
-        "relatability": 8,
-        "opinion_strength": 7,
-        "comment_potential": 7,
-        "discussion_potential": 7,
+        "topic": "Should product warranties be extended by default?",
+        "news_anchor": "The Department of Consumer Affairs announced on July 4, 2026, a public consultation on a proposed policy to mandate a minimum two-year warranty for all consumer electronics.",
+        "relatability": 9,
+        "opinion_strength": 8,
+        "comment_potential": 8,
+        "discussion_potential": 8,
         "shareability": 8,
         "trend_momentum": 9,
         "brand_safety": 10,
-        "total_score": 7.73
+        "total_score": 8.38
       },
       {
-        "topic": "Will India's first hydrogen train revolutionize rail travel?",
-        "news_anchor": "India's first hydrogen train is set to be flagged off on July 17, 2026, announced recently (July 8, 2026).",
+        "topic": "Should single-use plastic bags be completely banned?",
+        "news_anchor": "Several major cities, including Bengaluru and Hyderabad, initiated stricter enforcement of the single-use plastic ban starting July 3, 2026, with increased fines for violators.",
+        "relatability": 9,
+        "opinion_strength": 8,
+        "comment_potential": 8,
+        "discussion_potential": 8,
+        "shareability": 8,
+        "trend_momentum": 9,
+        "brand_safety": 10,
+        "total_score": 8.38
+      },
+      {
+        "topic": "Should E20 petrol be mandatory nationwide?",
+        "news_anchor": "The Ministry of Petroleum and Natural Gas announced on July 7, 2026, plans to accelerate the nationwide rollout and mandatory adoption of E20 petrol by year-end.",
+        "relatability": 9,
+        "opinion_strength": 8,
+        "comment_potential": 8,
+        "discussion_potential": 8,
+        "shareability": 7,
+        "trend_momentum": 9,
+        "brand_safety": 10,
+        "total_score": 8.28
+      },
+      {
+        "topic": "Are AI-driven layoffs at IT firms justified?",
+        "news_anchor": "A report released by NASSCOM on July 4, 2026, indicated a 15% rise in AI-driven workforce restructuring and layoffs in the Indian IT sector in the last quarter.",
+        "relatability": 8,
+        "opinion_strength": 8,
+        "comment_potential": 8,
+        "discussion_potential": 8,
+        "shareability": 8,
+        "trend_momentum": 9,
+        "brand_safety": 10,
+        "total_score": 8.25
+      },
+      {
+        "topic": "Should all government services be fully digitized?",
+        "news_anchor": "The Prime Minister's Office announced on July 4, 2026, an ambitious target to digitize 90% of all central and state government services by the end of the year, launching a new 'Digital Seva' portal.",
         "relatability": 8,
         "opinion_strength": 7,
         "comment_potential": 7,
+        "discussion_potential": 8,
+        "shareability": 7,
+        "trend_momentum": 9,
+        "brand_safety": 10,
+        "total_score": 7.81
+      },
+      {
+        "topic": "Should airlines compensate for extreme weather delays?",
+        "news_anchor": "Following a week of significant flight disruptions due to heavy monsoon rains in Mumbai and Chennai (July 3-9, 2026), a consumer rights group demanded clearer airline compensation policies.",
+        "relatability": 8,
+        "opinion_strength": 8,
+        "comment_potential": 8,
         "discussion_potential": 7,
-        "shareability": 8,
+        "shareability": 7,
         "trend_momentum": 8,
         "brand_safety": 10,
-        "total_score": 7.48
+        "total_score": 7.72
       },
       {
-        "topic": "Will new affordable 5G phones boost digital inclusion?",
-        "news_anchor": "Ai+ Smartphone launched Nova 2 Pro & Neo in India, entering the affordable 5G market (July 2, 2026).",
-        "relatability": 8,
+        "topic": "Should banks limit daily ATM withdrawals?",
+        "news_anchor": "Several public sector banks, starting July 5, 2026, announced a revision in their daily ATM withdrawal limits, citing increased digital transaction push and security concerns.",
+        "relatability": 9,
         "opinion_strength": 7,
         "comment_potential": 7,
         "discussion_potential": 7,
-        "shareability": 8,
+        "shareability": 7,
         "trend_momentum": 8,
         "brand_safety": 10,
-        "total_score": 7.48
+        "total_score": 7.51
       },
       {
-        "topic": "Is the online objection window for exam answer keys fair?",
-        "news_anchor": "UPTET Answer Key 2026 was released with an objection window open until July 14 (July 8, 2026).",
+        "topic": "Should schools standardize digital learning platforms?",
+        "news_anchor": "The Central Board of Secondary Education (CBSE) on July 10, 2026, recommended a standardized digital learning platform for all affiliated schools to ensure equitable access to online resources.",
         "relatability": 8,
         "opinion_strength": 7,
         "comment_potential": 7,
         "discussion_potential": 7,
         "shareability": 7,
-        "trend_momentum": 7,
+        "trend_momentum": 8,
         "brand_safety": 10,
-        "total_score": 7.13
+        "total_score": 7.38
       },
       {
-        "topic": "Should Apple enable credit/debit card payments in India?",
-        "news_anchor": "Apple is now testing credit/debit card payments for App Store and iCloud purchases in India after a five-year hiatus (July 7, 2026).",
+        "topic": "Should small businesses get simpler GST filing?",
+        "news_anchor": "The Goods and Services Tax Network (GSTN) on July 5, 2026, launched a pilot program for a simplified, AI-assisted GST return filing interface specifically for micro and small enterprises.",
         "relatability": 7,
         "opinion_strength": 7,
         "comment_potential": 7,
         "discussion_potential": 7,
         "shareability": 7,
-        "trend_momentum": 7,
+        "trend_momentum": 8,
         "brand_safety": 10,
-        "total_score": 7.0
+        "total_score": 7.25
       },
       {
-        "topic": "Does rising GST collection reflect a healthy economy?",
-        "news_anchor": "GST collections for June 2026 rose to \u20b91.94 lakh crore, as reported by the government (July 2, 2026).",
+        "topic": "Should electric vehicles get free public charging?",
+        "news_anchor": "The Delhi government on July 7, 2026, unveiled a new EV policy incentive scheme, proposing free charging at select public stations for the first year of ownership.",
+        "relatability": 7,
+        "opinion_strength": 7,
+        "comment_potential": 7,
+        "discussion_potential": 7,
+        "shareability": 6,
+        "trend_momentum": 8,
+        "brand_safety": 10,
+        "total_score": 7.15
+      },
+      {
+        "topic": "Should household solar panels receive more subsidies?",
+        "news_anchor": "The Ministry of New and Renewable Energy on July 8, 2026, reviewed its rooftop solar subsidy scheme, with calls from industry bodies for increased incentives to boost adoption.",
+        "relatability": 7,
+        "opinion_strength": 7,
+        "comment_potential": 7,
+        "discussion_potential": 7,
+        "shareability": 6,
+        "trend_momentum": 8,
+        "brand_safety": 10,
+        "total_score": 7.15
+      },
+      {
+        "topic": "Should urban green spaces be mandatory in new projects?",
+        "news_anchor": "The Ministry of Housing and Urban Affairs on July 6, 2026, issued new guidelines requiring a minimum percentage of green cover and public open spaces in all new large-scale urban development projects.",
         "relatability": 7,
         "opinion_strength": 6,
         "comment_potential": 6,
         "discussion_potential": 7,
-        "shareability": 7,
-        "trend_momentum": 7,
-        "brand_safety": 10,
-        "total_score": 6.66
-      },
-      {
-        "topic": "Will new drug import ports improve pharmaceutical access?",
-        "news_anchor": "Navi Mumbai Airport was designated as a port for drug imports, aiming to strengthen the pharmaceutical supply chain (July 6, 2026).",
-        "relatability": 7,
-        "opinion_strength": 6,
-        "comment_potential": 6,
-        "discussion_potential": 6,
-        "shareability": 7,
-        "trend_momentum": 7,
-        "brand_safety": 10,
-        "total_score": 6.48
-      },
-      {
-        "topic": "Should new laws protect educational institution lands?",
-        "news_anchor": "The Karnataka Government Educational Institutions Lands (Protection and Regularisation) Act, 2026, was passed (July 9, 2026).",
-        "relatability": 7,
-        "opinion_strength": 6,
-        "comment_potential": 6,
-        "discussion_potential": 6,
         "shareability": 6,
         "trend_momentum": 7,
         "brand_safety": 10,
-        "total_score": 6.38
+        "total_score": 6.56
       },
       {
-        "topic": "Is extending the GST appeal deadline beneficial for businesses?",
-        "news_anchor": "The central government extended the deadline for filing GSTAT appeals until July 31, 2026 (July 2, 2026).",
+        "topic": "Should high-speed rail projects prioritize existing routes?",
+        "news_anchor": "The Ministry of Railways on July 9, 2026, inaugurated a new segment of the Delhi-Varanasi High-Speed Rail corridor, reigniting debates on prioritizing new routes versus upgrading existing ones.",
         "relatability": 6,
         "opinion_strength": 6,
         "comment_potential": 6,
-        "discussion_potential": 6,
-        "shareability": 6,
-        "trend_momentum": 7,
-        "brand_safety": 10,
-        "total_score": 6.25
-      },
-      {
-        "topic": "Are new e-Way Bill changes a burden for businesses?",
-        "news_anchor": "GSTN's e-Way Bill changes, announced 7 days ago, are pushing firms to prepare their systems (July 2, 2026).",
-        "relatability": 6,
-        "opinion_strength": 6,
-        "comment_potential": 6,
-        "discussion_potential": 6,
-        "shareability": 6,
-        "trend_momentum": 7,
-        "brand_safety": 10,
-        "total_score": 6.25
-      },
-      {
-        "topic": "Does relaxing weighing instrument norms help businesses more?",
-        "news_anchor": "Government relaxed verification norms for high-capacity weighing instruments (July 6, 2026).",
-        "relatability": 5,
-        "opinion_strength": 5,
-        "comment_potential": 5,
-        "discussion_potential": 5,
+        "discussion_potential": 7,
         "shareability": 5,
-        "trend_momentum": 6,
+        "trend_momentum": 7,
         "brand_safety": 10,
-        "total_score": 5.25
+        "total_score": 6.33
       }
     ],
     "eligible_candidates": [
       {
-        "topic": "Should companies mandate office presence during extreme weather?",
-        "news_anchor": "A viral WhatsApp chat showed a manager insisting an employee come to office during heavy Pune rains (July 9, 2026).",
-        "relatability": 10,
-        "opinion_strength": 10,
-        "comment_potential": 10,
-        "discussion_potential": 10,
-        "shareability": 10,
-        "trend_momentum": 10,
-        "brand_safety": 10,
-        "total_score": 10.0
-      },
-      {
-        "topic": "Should government control fuel prices despite global changes?",
-        "news_anchor": "Petrol/diesel prices remained unchanged despite global crude fluctuations, prompting Arvind Kejriwal's demand for lower prices (July 9, 2026).",
-        "relatability": 10,
-        "opinion_strength": 10,
-        "comment_potential": 10,
-        "discussion_potential": 9,
-        "shareability": 9,
-        "trend_momentum": 9,
-        "brand_safety": 9,
-        "total_score": 9.47
-      },
-      {
-        "topic": "Are Indian cities prepared for extreme monsoon events?",
-        "news_anchor": "Monsoon fury battered India, causing floods in cities like Delhi, Gujarat, and Maharashtra this past week (July 9, 2026).",
+        "topic": "Should UPI charges apply for small transactions?",
+        "news_anchor": "The National Payments Corporation of India (NPCI) introduced on July 5, 2026, a pilot program for nominal transaction charges on UPI payments below \u20b9100, aiming to cover operational costs.",
         "relatability": 10,
         "opinion_strength": 9,
         "comment_potential": 9,
@@ -325,44 +301,44 @@
         "total_score": 9.38
       },
       {
-        "topic": "Are AI-driven layoffs justified for productivity gains?",
-        "news_anchor": "Estimates show 25,000-35,000 jobs could be cut in Indian IT in 2026 due to AI-driven productivity improvements (July 9, 2026).",
-        "relatability": 9,
+        "topic": "Should banks bear full liability for UPI fraud?",
+        "news_anchor": "After a surge in reported UPI frauds last week (July 3-9, 2026), a consumer protection forum urged the Reserve Bank of India (RBI) to strengthen bank liability in such cases.",
+        "relatability": 10,
         "opinion_strength": 9,
         "comment_potential": 9,
         "discussion_potential": 9,
         "shareability": 9,
-        "trend_momentum": 10,
-        "brand_safety": 9,
-        "total_score": 9.25
+        "trend_momentum": 9,
+        "brand_safety": 10,
+        "total_score": 9.13
       },
       {
-        "topic": "Should restaurants offer free food as a marketing strategy?",
-        "news_anchor": "A viral video of people queuing for free food in Bengaluru sparked debate about the ethics of such marketing (July 3, 2026).",
+        "topic": "Should board exam marks weigh more for college entry?",
+        "news_anchor": "The Ministry of Education on July 6, 2026, released a draft policy suggesting increased weightage for Class 12 board examination scores in university admissions, reducing reliance on entrance tests.",
         "relatability": 9,
         "opinion_strength": 9,
         "comment_potential": 9,
         "discussion_potential": 9,
         "shareability": 9,
         "trend_momentum": 9,
-        "brand_safety": 9,
+        "brand_safety": 10,
         "total_score": 9.0
       },
       {
-        "topic": "Should social media platforms be fully liable for CSEM?",
-        "news_anchor": "India directed Instagram to disable CSEM ads/content and report within 7 days (July 6, 2026).",
-        "relatability": 8,
+        "topic": "Should companies enforce hybrid work models?",
+        "news_anchor": "A major IT conglomerate on July 3, 2026, mandated a '3 days in office, 2 days remote' hybrid work model for all its employees, sparking mixed reactions across the sector.",
+        "relatability": 9,
         "opinion_strength": 9,
         "comment_potential": 9,
-        "discussion_potential": 8,
+        "discussion_potential": 9,
         "shareability": 9,
-        "trend_momentum": 10,
-        "brand_safety": 8,
-        "total_score": 8.94
+        "trend_momentum": 9,
+        "brand_safety": 10,
+        "total_score": 9.0
       },
       {
-        "topic": "Is a \"top to bottom\" NTA revamp sufficient to fix exam issues?",
-        "news_anchor": "After recent exam controversies, a \"top to bottom\" revamp of the National Testing Agency (NTA) for NEET-UG 2027 was announced (July 9, 2026).",
+        "topic": "Should social media influencers disclose all paid promotions?",
+        "news_anchor": "Following a viral debate (July 5-9, 2026) regarding undisclosed brand collaborations by prominent Indian influencers, the Advertising Standards Council of India (ASCI) reiterated stricter disclosure norms.",
         "relatability": 9,
         "opinion_strength": 8,
         "comment_potential": 9,
@@ -373,177 +349,201 @@
         "total_score": 8.88
       },
       {
-        "topic": "Should companies face stricter penalties for misleading food labels?",
-        "news_anchor": "FSSAI issued notices to Lotte India and two other companies for misleading claims and labelling violations (July 8, 2026).",
-        "relatability": 9,
-        "opinion_strength": 9,
-        "comment_potential": 9,
-        "discussion_potential": 8,
+        "topic": "Is the new digital ID verification process too intrusive?",
+        "news_anchor": "The Ministry of Electronics and Information Technology launched on July 9, 2026, a new unified digital identity verification system, making several government services accessible after biometric authentication.",
+        "relatability": 8,
+        "opinion_strength": 8,
+        "comment_potential": 8,
+        "discussion_potential": 9,
         "shareability": 8,
         "trend_momentum": 9,
-        "brand_safety": 9,
-        "total_score": 8.72
+        "brand_safety": 10,
+        "total_score": 8.43
       },
       {
-        "topic": "Should government monitor social media feature rollouts?",
-        "news_anchor": "Government granted Meta three more days to explain its WhatsApp username rollout (July 6, 2026).",
+        "topic": "Should online streaming services face higher GST?",
+        "news_anchor": "The GST Council, following its meeting on July 8, 2026, reportedly discussed proposals to increase GST rates on online streaming and digital content services.",
         "relatability": 9,
         "opinion_strength": 8,
         "comment_potential": 8,
         "discussion_potential": 8,
         "shareability": 8,
-        "trend_momentum": 8,
-        "brand_safety": 9,
-        "total_score": 8.13
+        "trend_momentum": 9,
+        "brand_safety": 10,
+        "total_score": 8.38
       },
       {
-        "topic": "Is integrating AI agents into search ads beneficial for consumers?",
-        "news_anchor": "Google launched an AI agent within Search ads in India, expanding Gemini-powered ad tools (July 9, 2026).",
-        "relatability": 8,
-        "opinion_strength": 7,
-        "comment_potential": 7,
-        "discussion_potential": 7,
+        "topic": "Should product warranties be extended by default?",
+        "news_anchor": "The Department of Consumer Affairs announced on July 4, 2026, a public consultation on a proposed policy to mandate a minimum two-year warranty for all consumer electronics.",
+        "relatability": 9,
+        "opinion_strength": 8,
+        "comment_potential": 8,
+        "discussion_potential": 8,
         "shareability": 8,
         "trend_momentum": 9,
         "brand_safety": 10,
-        "total_score": 7.73
+        "total_score": 8.38
       },
       {
-        "topic": "Will India's first hydrogen train revolutionize rail travel?",
-        "news_anchor": "India's first hydrogen train is set to be flagged off on July 17, 2026, announced recently (July 8, 2026).",
+        "topic": "Should single-use plastic bags be completely banned?",
+        "news_anchor": "Several major cities, including Bengaluru and Hyderabad, initiated stricter enforcement of the single-use plastic ban starting July 3, 2026, with increased fines for violators.",
+        "relatability": 9,
+        "opinion_strength": 8,
+        "comment_potential": 8,
+        "discussion_potential": 8,
+        "shareability": 8,
+        "trend_momentum": 9,
+        "brand_safety": 10,
+        "total_score": 8.38
+      },
+      {
+        "topic": "Should E20 petrol be mandatory nationwide?",
+        "news_anchor": "The Ministry of Petroleum and Natural Gas announced on July 7, 2026, plans to accelerate the nationwide rollout and mandatory adoption of E20 petrol by year-end.",
+        "relatability": 9,
+        "opinion_strength": 8,
+        "comment_potential": 8,
+        "discussion_potential": 8,
+        "shareability": 7,
+        "trend_momentum": 9,
+        "brand_safety": 10,
+        "total_score": 8.28
+      },
+      {
+        "topic": "Are AI-driven layoffs at IT firms justified?",
+        "news_anchor": "A report released by NASSCOM on July 4, 2026, indicated a 15% rise in AI-driven workforce restructuring and layoffs in the Indian IT sector in the last quarter.",
+        "relatability": 8,
+        "opinion_strength": 8,
+        "comment_potential": 8,
+        "discussion_potential": 8,
+        "shareability": 8,
+        "trend_momentum": 9,
+        "brand_safety": 10,
+        "total_score": 8.25
+      },
+      {
+        "topic": "Should all government services be fully digitized?",
+        "news_anchor": "The Prime Minister's Office announced on July 4, 2026, an ambitious target to digitize 90% of all central and state government services by the end of the year, launching a new 'Digital Seva' portal.",
         "relatability": 8,
         "opinion_strength": 7,
         "comment_potential": 7,
+        "discussion_potential": 8,
+        "shareability": 7,
+        "trend_momentum": 9,
+        "brand_safety": 10,
+        "total_score": 7.81
+      },
+      {
+        "topic": "Should airlines compensate for extreme weather delays?",
+        "news_anchor": "Following a week of significant flight disruptions due to heavy monsoon rains in Mumbai and Chennai (July 3-9, 2026), a consumer rights group demanded clearer airline compensation policies.",
+        "relatability": 8,
+        "opinion_strength": 8,
+        "comment_potential": 8,
         "discussion_potential": 7,
-        "shareability": 8,
+        "shareability": 7,
         "trend_momentum": 8,
         "brand_safety": 10,
-        "total_score": 7.48
+        "total_score": 7.72
       },
       {
-        "topic": "Will new affordable 5G phones boost digital inclusion?",
-        "news_anchor": "Ai+ Smartphone launched Nova 2 Pro & Neo in India, entering the affordable 5G market (July 2, 2026).",
-        "relatability": 8,
+        "topic": "Should banks limit daily ATM withdrawals?",
+        "news_anchor": "Several public sector banks, starting July 5, 2026, announced a revision in their daily ATM withdrawal limits, citing increased digital transaction push and security concerns.",
+        "relatability": 9,
         "opinion_strength": 7,
         "comment_potential": 7,
         "discussion_potential": 7,
-        "shareability": 8,
+        "shareability": 7,
         "trend_momentum": 8,
         "brand_safety": 10,
-        "total_score": 7.48
+        "total_score": 7.51
       },
       {
-        "topic": "Is the online objection window for exam answer keys fair?",
-        "news_anchor": "UPTET Answer Key 2026 was released with an objection window open until July 14 (July 8, 2026).",
+        "topic": "Should schools standardize digital learning platforms?",
+        "news_anchor": "The Central Board of Secondary Education (CBSE) on July 10, 2026, recommended a standardized digital learning platform for all affiliated schools to ensure equitable access to online resources.",
         "relatability": 8,
         "opinion_strength": 7,
         "comment_potential": 7,
         "discussion_potential": 7,
         "shareability": 7,
-        "trend_momentum": 7,
+        "trend_momentum": 8,
         "brand_safety": 10,
-        "total_score": 7.13
+        "total_score": 7.38
       },
       {
-        "topic": "Should Apple enable credit/debit card payments in India?",
-        "news_anchor": "Apple is now testing credit/debit card payments for App Store and iCloud purchases in India after a five-year hiatus (July 7, 2026).",
+        "topic": "Should small businesses get simpler GST filing?",
+        "news_anchor": "The Goods and Services Tax Network (GSTN) on July 5, 2026, launched a pilot program for a simplified, AI-assisted GST return filing interface specifically for micro and small enterprises.",
         "relatability": 7,
         "opinion_strength": 7,
         "comment_potential": 7,
         "discussion_potential": 7,
         "shareability": 7,
-        "trend_momentum": 7,
+        "trend_momentum": 8,
         "brand_safety": 10,
-        "total_score": 7.0
+        "total_score": 7.25
       },
       {
-        "topic": "Does rising GST collection reflect a healthy economy?",
-        "news_anchor": "GST collections for June 2026 rose to \u20b91.94 lakh crore, as reported by the government (July 2, 2026).",
+        "topic": "Should electric vehicles get free public charging?",
+        "news_anchor": "The Delhi government on July 7, 2026, unveiled a new EV policy incentive scheme, proposing free charging at select public stations for the first year of ownership.",
+        "relatability": 7,
+        "opinion_strength": 7,
+        "comment_potential": 7,
+        "discussion_potential": 7,
+        "shareability": 6,
+        "trend_momentum": 8,
+        "brand_safety": 10,
+        "total_score": 7.15
+      },
+      {
+        "topic": "Should household solar panels receive more subsidies?",
+        "news_anchor": "The Ministry of New and Renewable Energy on July 8, 2026, reviewed its rooftop solar subsidy scheme, with calls from industry bodies for increased incentives to boost adoption.",
+        "relatability": 7,
+        "opinion_strength": 7,
+        "comment_potential": 7,
+        "discussion_potential": 7,
+        "shareability": 6,
+        "trend_momentum": 8,
+        "brand_safety": 10,
+        "total_score": 7.15
+      },
+      {
+        "topic": "Should urban green spaces be mandatory in new projects?",
+        "news_anchor": "The Ministry of Housing and Urban Affairs on July 6, 2026, issued new guidelines requiring a minimum percentage of green cover and public open spaces in all new large-scale urban development projects.",
         "relatability": 7,
         "opinion_strength": 6,
         "comment_potential": 6,
         "discussion_potential": 7,
-        "shareability": 7,
-        "trend_momentum": 7,
-        "brand_safety": 10,
-        "total_score": 6.66
-      },
-      {
-        "topic": "Will new drug import ports improve pharmaceutical access?",
-        "news_anchor": "Navi Mumbai Airport was designated as a port for drug imports, aiming to strengthen the pharmaceutical supply chain (July 6, 2026).",
-        "relatability": 7,
-        "opinion_strength": 6,
-        "comment_potential": 6,
-        "discussion_potential": 6,
-        "shareability": 7,
-        "trend_momentum": 7,
-        "brand_safety": 10,
-        "total_score": 6.48
-      },
-      {
-        "topic": "Should new laws protect educational institution lands?",
-        "news_anchor": "The Karnataka Government Educational Institutions Lands (Protection and Regularisation) Act, 2026, was passed (July 9, 2026).",
-        "relatability": 7,
-        "opinion_strength": 6,
-        "comment_potential": 6,
-        "discussion_potential": 6,
         "shareability": 6,
         "trend_momentum": 7,
         "brand_safety": 10,
-        "total_score": 6.38
+        "total_score": 6.56
       },
       {
-        "topic": "Is extending the GST appeal deadline beneficial for businesses?",
-        "news_anchor": "The central government extended the deadline for filing GSTAT appeals until July 31, 2026 (July 2, 2026).",
+        "topic": "Should high-speed rail projects prioritize existing routes?",
+        "news_anchor": "The Ministry of Railways on July 9, 2026, inaugurated a new segment of the Delhi-Varanasi High-Speed Rail corridor, reigniting debates on prioritizing new routes versus upgrading existing ones.",
         "relatability": 6,
         "opinion_strength": 6,
         "comment_potential": 6,
-        "discussion_potential": 6,
-        "shareability": 6,
-        "trend_momentum": 7,
-        "brand_safety": 10,
-        "total_score": 6.25
-      },
-      {
-        "topic": "Are new e-Way Bill changes a burden for businesses?",
-        "news_anchor": "GSTN's e-Way Bill changes, announced 7 days ago, are pushing firms to prepare their systems (July 2, 2026).",
-        "relatability": 6,
-        "opinion_strength": 6,
-        "comment_potential": 6,
-        "discussion_potential": 6,
-        "shareability": 6,
-        "trend_momentum": 7,
-        "brand_safety": 10,
-        "total_score": 6.25
-      },
-      {
-        "topic": "Does relaxing weighing instrument norms help businesses more?",
-        "news_anchor": "Government relaxed verification norms for high-capacity weighing instruments (July 6, 2026).",
-        "relatability": 5,
-        "opinion_strength": 5,
-        "comment_potential": 5,
-        "discussion_potential": 5,
+        "discussion_potential": 7,
         "shareability": 5,
-        "trend_momentum": 6,
+        "trend_momentum": 7,
         "brand_safety": 10,
-        "total_score": 5.25
+        "total_score": 6.33
       }
     ],
     "winner": {
-      "topic": "Should companies mandate office presence during extreme weather?",
-      "news_anchor": "A viral WhatsApp chat showed a manager insisting an employee come to office during heavy Pune rains (July 9, 2026).",
+      "topic": "Should UPI charges apply for small transactions?",
+      "news_anchor": "The National Payments Corporation of India (NPCI) introduced on July 5, 2026, a pilot program for nominal transaction charges on UPI payments below \u20b9100, aiming to cover operational costs.",
       "relatability": 10,
-      "opinion_strength": 10,
-      "comment_potential": 10,
-      "discussion_potential": 10,
-      "shareability": 10,
+      "opinion_strength": 9,
+      "comment_potential": 9,
+      "discussion_potential": 9,
+      "shareability": 9,
       "trend_momentum": 10,
       "brand_safety": 10,
-      "total_score": 10.0
+      "total_score": 9.38
     }
   },
   "slot": "evening",
-  "post_image_file": "output/post-evening-2026-07-09.jpg",
-  "story_image_file": "output/story-evening-2026-07-09.jpg",
-  "blog_post_path": "blog/posts/2026-07-09-evening-office-weather-mandate.html"
+  "post_image_file": "output/post-evening-2026-07-10.jpg",
+  "story_image_file": "output/story-evening-2026-07-10.jpg",
+  "blog_post_path": "blog/posts/2026-07-10-evening-upi-small-charges.html"
 }
