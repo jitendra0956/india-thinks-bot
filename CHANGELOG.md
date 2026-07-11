@@ -1,5 +1,137 @@
 # Changelog
 
+## Instagram publishing replaced with Telegram publishing
+
+Per the founder's request, the publishing destination switched from
+Instagram to a Telegram channel. Minimal-change implementation: content
+generation, image generation (both Gemini and OpenAI providers), blog
+publishing, and the commit/push flow are all untouched.
+
+### What changed
+
+- **New `post_telegram.py`**: `post_photo_to_telegram()` uploads the image
+  file directly via Telegram's sendPhoto (multipart) — no public URL
+  needed, which removes the jsDelivr CDN dependency from publishing
+  entirely. Telegram error descriptions are surfaced verbatim ("chat not
+  found", "bot was kicked", etc). Captions are truncated to Telegram's
+  1024-char photo-caption limit (stricter than Instagram's 2200).
+- **`main.py` `publish()`**: now posts to Telegram with title + caption +
+  blog URL. Per requirements, a Telegram failure logs a clear ERROR and
+  exits 0 — the workflow never fails because publishing failed (the blog
+  is already committed and live by that point). A missing package.json is
+  still a hard error, since that means `prepare` never ran. Now-unused
+  `GITHUB_REPOSITORY`/`GITHUB_REF_NAME` imports removed.
+- **`config.py`**: added `TELEGRAM_BOT_TOKEN` (secret) and
+  `TELEGRAM_CHAT_ID` (default `-1004307013125`, overridable via env). IG
+  config vars kept but marked retired.
+- **`.github/workflows/daily.yml`**: the Instagram publish step replaced
+  with a Telegram publish step (`TELEGRAM_BOT_TOKEN` secret +
+  `TELEGRAM_CHAT_ID` variable). Everything else in the workflow unchanged.
+- **`post_instagram.py` kept on disk, unused** — same convention as the
+  carousel code earlier: re-enabling Instagram later is a workflow/config
+  change, not a code resurrection.
+
+### Verified with tests
+
+- Caption truncation at exactly 1024 chars with ellipsis.
+- Missing token raises `TelegramPublishError` (a normal Exception
+  subclass — the SystemExit-vs-Exception lesson from the AI-image round
+  re-checked here).
+- **The never-fail guarantee tested directly**: ran `main.py publish` with
+  a broken token against a real package file — clear ERROR logged, exit
+  code 0.
+- Success path tested with a mocked Telegram API: correct endpoint,
+  correct chat_id (-1004307013125), caption contains title + blog URL,
+  photo attached as a direct file upload.
+- **Not tested live**: an actual Telegram API call (sandbox network, as
+  always). The request shape is Telegram's stable, documented sendPhoto
+  form; if anything's off, error descriptions will say exactly what.
+
+---
+
+# Changelog
+
+## OpenAI added as a second image provider (minimal-change)
+
+Founder requested OpenAI image generation as an alternative to Gemini
+(limited free credit, wanted a cheap option to try), explicitly asking
+for the smallest possible change given the system was already fully
+deployed and working end to end. This was genuinely small because of how
+the AI-image system was architected in an earlier round: one isolated
+module (`ai_image.py`) with exactly one public function, called
+generically by `make_image.py`. Swapping/adding a provider only ever
+needed to change what's behind that one function.
+
+### Files touched (5, all small)
+
+- **`config.py`**: added `IMAGE_PROVIDER` (default `"gemini"` — existing
+  setups are completely unaffected unless this is explicitly changed) and
+  `OPENAI_API_KEY`/`OPENAI_IMAGE_MODEL`/`OPENAI_IMAGE_SIZE`/`OPENAI_IMAGE_QUALITY`.
+- **`ai_image.py`**: the existing Gemini logic was renamed to a private
+  `_generate_gemini()` with no behavioral change, a new `_generate_openai()`
+  was added alongside it, and the public `generate_ai_background()` — the
+  only function anything else in the codebase calls — became a two-line
+  dispatcher that picks between them based on `IMAGE_PROVIDER`.
+- **`requirements.txt`**: added `openai`.
+- **`.github/workflows/daily.yml`**: added one secret
+  (`OPENAI_API_KEY`) and four variable pass-throughs to the existing
+  `prepare` step's `env:` block. No new jobs, no new steps, no schedule
+  changes.
+- **`README.md`**: documented the new secret/variables and provider switch.
+
+### Files NOT touched (by design)
+
+`main.py`, `generate_content.py`, `make_image.py`, `publish_blog.py`,
+`post_instagram.py` — zero changes. None of them know or care which
+provider generated the background photo; `make_image.py` still just calls
+`generate_ai_background(prompt)` exactly as before.
+
+### A correction made before writing any code
+
+DALL-E 2 and DALL-E 3 were removed from OpenAI's API on 2026-05-12 — the
+originally-requested "DALL-E-style" integration would not have worked at
+all if implemented against those model names. Verified current pricing
+and model lineup before writing code rather than assuming training-data
+knowledge was current, given how recently this specific change happened.
+Implemented against `gpt-image-1-mini`, which is OpenAI's own documented
+recommendation for high-volume, budget-conscious use — a direct match for
+a twice-daily automated pipeline running on a small one-time credit.
+
+### Verified with tests
+
+- Confirmed the default `IMAGE_PROVIDER` remains `"gemini"` with no env
+  var set, so upgrading this code changes nothing for an existing Gemini
+  setup unless `IMAGE_PROVIDER=openai` is explicitly set.
+- Tested all three dispatch outcomes: missing `OPENAI_API_KEY` raises a
+  clear `ValueError` (not `SystemExit` — same subtlety fixed for Gemini in
+  an earlier round applies identically here and was re-verified), an
+  unrecognized `IMAGE_PROVIDER` value raises a clear error listing valid
+  options, and the full `make_post_image()` fallback wrapper catches
+  either failure and produces a valid PIL-rendered image instead of
+  crashing — exactly the same unconditional safety net Gemini already had.
+- Tested the OpenAI success path with a mocked response (a real small PNG,
+  base64-encoded exactly as OpenAI's `b64_json` field would contain),
+  confirming the decode logic correctly reconstructs a proper RGB PIL
+  Image at the right dimensions.
+- Re-ran the full 5-template + story regression suite (including the CTA
+  pill position check) to confirm none of this touched anything in the
+  rendering path.
+- Workflow YAML re-validated for structural correctness after the env
+  additions.
+- **Not tested in this environment**: a live call to OpenAI's API — same
+  sandbox network limitation as every previous round (this sandbox
+  cannot reach PyPI to even install the `openai` package, let alone call
+  the live endpoint). The request/response shape used
+  (`client.images.generate(...)`, reading `.b64_json` or `.url` from
+  `response.data[0]`) matches OpenAI's current documented SDK usage; if
+  that shape has changed, `_generate_openai()` in `ai_image.py` is the one
+  place to fix it, and the existing fallback guarantees a wrong/changed
+  shape degrades to the PIL renderer rather than crashing the workflow.
+
+---
+
+# Changelog
+
 ## Critical fix: PIL renderer produced "nearly blank" images on Windows
 
 ### Root cause

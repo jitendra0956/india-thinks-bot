@@ -20,7 +20,7 @@ import re
 import sys
 from datetime import date, timedelta
 
-from config import BLOG_URL, GITHUB_REPOSITORY, GITHUB_REF_NAME, IMAGE_RETENTION_DAYS, POST_SLOTS
+from config import BLOG_URL, IMAGE_RETENTION_DAYS, POST_SLOTS
 from generate_content import generate_daily_package
 from make_image import make_post_image, make_story_image, headline_for_story
 from publish_blog import publish_post
@@ -113,35 +113,48 @@ def prepare(slot: str) -> None:
 
 
 def publish(slot: str) -> None:
-    from post_instagram import post_single_to_instagram
+    """Publishes the day's post to Telegram.
+
+    Per requirements, a Telegram failure must never fail the workflow —
+    the blog is already committed and live by this point, so this step
+    logs the error clearly and returns successfully instead of raising.
+    (Missing package.json is still a hard error: that means `prepare`
+    never ran, which is a real pipeline problem, not a publishing hiccup.)
+    """
+    from post_telegram import post_photo_to_telegram
 
     slot = _validate_slot(slot)
     package_path = _package_path(slot)
     if not os.path.exists(package_path):
         raise SystemExit(
-            f"{package_path} not found. Run 'python main.py prepare {slot}' first, "
-            f"and make sure the repo was committed/pushed before calling publish."
+            f"{package_path} not found. Run 'python main.py prepare {slot}' first."
         )
 
     with open(package_path) as f:
         package = json.load(f)
 
-    if not GITHUB_REPOSITORY:
-        raise SystemExit(
-            "GITHUB_REPOSITORY is not set. This step is meant to run inside "
-            "GitHub Actions, where that variable is set automatically."
-        )
     if "post_image_file" not in package:
         raise SystemExit("package.json is missing 'post_image_file' — did 'prepare' complete successfully?")
 
-    # jsDelivr's GitHub CDN — reliable content-type headers and, since every
-    # filename is unique per day+slot, never serves a stale cached image.
-    image_url = f"https://cdn.jsdelivr.net/gh/{GITHUB_REPOSITORY}@{GITHUB_REF_NAME}/{package['post_image_file']}"
-    caption = package["instagram_caption"] + f"\n\nRead the full explainer: {BLOG_URL}"
+    image_path = os.path.join(os.path.dirname(__file__), package["post_image_file"])
 
-    logger.info("[%s] Posting image to Instagram (template: %s)...", slot, package["post"]["template_type"])
-    post_single_to_instagram(image_url, caption)
-    logger.info("[%s] Done. Today's %s debate is live.", slot, slot)
+    # Telegram photo captions cap at 1024 chars, so keep this tight:
+    # title, the (already hashtagged) caption, then the blog link.
+    caption = (
+        f"🗳️ {package['article_title']}\n\n"
+        f"{package['instagram_caption']}\n\n"
+        f"📖 Read the full explainer: {BLOG_URL}"
+    )
+
+    logger.info("[%s] Posting image to Telegram (template: %s)...", slot, package["post"]["template_type"])
+    try:
+        post_photo_to_telegram(image_path, caption)
+        logger.info("[%s] Done. Today's %s debate is live on Telegram.", slot, slot)
+    except Exception as exc:
+        logger.error(
+            "[%s] Telegram publishing failed (%s). The blog post is already "
+            "live; continuing without failing the workflow.", slot, exc,
+        )
 
 
 if __name__ == "__main__":

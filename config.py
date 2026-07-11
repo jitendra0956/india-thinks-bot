@@ -18,9 +18,35 @@ GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
 # This is a real per-image cost when enabled — see README for current
 # pricing before turning it on for production.
 USE_AI_IMAGES = os.environ.get("USE_AI_IMAGES", "false").strip().lower() == "true"
+
+# Which provider generates the background photo when USE_AI_IMAGES is on.
+# "gemini" (default) preserves exact current behavior. Set to "openai" in
+# GitHub Variables to switch — no code change needed either way.
+IMAGE_PROVIDER = os.environ.get("IMAGE_PROVIDER", "gemini").strip().lower()
+
 GEMINI_IMAGE_MODEL = os.environ.get("GEMINI_IMAGE_MODEL", "gemini-2.5-flash-image")
 
+# OpenAI image generation (optional second provider). DALL-E 2/3 were
+# retired from OpenAI's API on 2026-05-12 -- do not use those model names.
+# GPT Image 1 Mini is OpenAI's own recommended choice for high-volume,
+# budget-conscious use like a daily social media pipeline.
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
+OPENAI_IMAGE_MODEL = os.environ.get("OPENAI_IMAGE_MODEL", "gpt-image-1-mini")
+OPENAI_IMAGE_SIZE = os.environ.get("OPENAI_IMAGE_SIZE", "1024x1536")  # closest to our 4:5 crop
+OPENAI_IMAGE_QUALITY = os.environ.get("OPENAI_IMAGE_QUALITY", "medium")  # low|medium|high
+
 # Instagram Graph API — see README for setup steps
+# Telegram publishing (replaces the earlier Instagram publishing step).
+# The bot token is a secret; the chat id identifies the channel/group the
+# bot posts into (channel ids are negative numbers and are not sensitive
+# the way a token is, so a default is fine here — override via env if the
+# destination ever changes).
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "-1004307013125")
+
+# Instagram Graph API — retired from the active workflow in favor of
+# Telegram, kept here (and post_instagram.py kept on disk) so re-enabling
+# later is a config/workflow change, not a code resurrection.
 IG_ACCESS_TOKEN = os.environ.get("IG_ACCESS_TOKEN", "")
 IG_USER_ID = os.environ.get("IG_USER_ID", "")  # Your Instagram Business Account ID
 

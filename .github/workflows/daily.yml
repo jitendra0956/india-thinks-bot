@@ -61,7 +61,12 @@ jobs:
           SUPABASE_URL: ${{ vars.SUPABASE_URL }}
           SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
           USE_AI_IMAGES: ${{ vars.USE_AI_IMAGES }}
+          IMAGE_PROVIDER: ${{ vars.IMAGE_PROVIDER }}
           GEMINI_IMAGE_MODEL: ${{ vars.GEMINI_IMAGE_MODEL }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_IMAGE_MODEL: ${{ vars.OPENAI_IMAGE_MODEL }}
+          OPENAI_IMAGE_SIZE: ${{ vars.OPENAI_IMAGE_SIZE }}
+          OPENAI_IMAGE_QUALITY: ${{ vars.OPENAI_IMAGE_QUALITY }}
         run: python main.py prepare "$SLOT"
 
       - name: Commit and push images and blog post
@@ -76,10 +81,10 @@ jobs:
             sleep 5
           done
 
-      - name: Publish carousel to Instagram (${{ env.SLOT }})
+      - name: Publish to Telegram (${{ env.SLOT }})
         env:
-          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
           BLOG_URL: ${{ vars.BLOG_URL }}
         run: python main.py publish "$SLOT"
 
