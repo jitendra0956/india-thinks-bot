@@ -1,4 +1,4 @@
-name: India Thinks Twice Daily Post
+name: India Thinks — Twice-Daily Post
 
 on:
   schedule:
@@ -73,13 +73,29 @@ jobs:
         run: |
           git config user.name "india-thinks-bot"
           git config user.email "bot@users.noreply.github.com"
+          # One-time cleanup: if package files were committed by an older
+          # version of this workflow, untrack them (now gitignored). Safe
+          # no-op on repos where they were never tracked.
+          git rm --cached --ignore-unmatch -q output/package-*.json || true
           git add output/ blog/
           git commit -m "${SLOT} post $(date +%F)" || { echo "Nothing to commit — exiting."; exit 0; }
-          for i in 1 2; do
-            git pull --rebase origin "${GITHUB_REF_NAME}" && git push && break
+          pushed=0
+          for i in 1 2 3; do
+            if git pull --rebase origin "${GITHUB_REF_NAME}" && git push; then
+              pushed=1
+              break
+            fi
+            # A conflicted rebase leaves the repo mid-rebase with conflict
+            # markers written into files on disk — abort to restore a clean
+            # tree before retrying (or before giving up).
+            git rebase --abort 2>/dev/null || true
             echo "Push attempt $i failed, retrying..."
             sleep 5
           done
+          if [ "$pushed" -ne 1 ]; then
+            echo "::error::Could not push after 3 attempts — failing loudly instead of continuing with a possibly corrupted working tree."
+            exit 1
+          fi
 
       - name: Publish to Telegram (${{ env.SLOT }})
         env:

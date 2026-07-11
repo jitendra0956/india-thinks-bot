@@ -4,3 +4,10 @@ __pycache__/
 .venv/
 *.egg-info/
 .DS_Store
+# Transient scratch files passing data from `prepare` to `publish` within
+# a single workflow run. Committing these was a bug: yesterday's committed
+# copy conflicts with today's on `git pull --rebase`, and git writes
+# conflict markers straight into the JSON, corrupting it for the publish
+# step. They have no value in git history (output/topics/ is the
+# intentional, committed transparency artifact).
+output/package-*.json

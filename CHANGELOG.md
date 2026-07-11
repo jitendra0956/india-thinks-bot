@@ -1,5 +1,64 @@
 # Changelog
 
+## Fix: publish step crashed on git-conflict-corrupted package JSON
+
+### Root cause (diagnosed from the founder's real workflow failure)
+
+`publish` failed with `JSONDecodeError: Expecting property name enclosed
+in double quotes: line 2 column 1 (char 2)` reading
+`output/package-morning.json`. Reproduced exactly: this is what a JSON
+file looks like after **git writes merge-conflict markers into it**
+(`<<<<<<< HEAD` at line 2). Chain of causes, all in the workflow's commit
+step:
+
+1. `git add output/` committed `package-*.json` every run — a design
+   mistake from an earlier round: it's a transient scratch file passing
+   data from `prepare` to `publish` within one run, and committing it
+   meant yesterday's copy lived in the remote for today's rebase to
+   conflict with.
+2. On conflict, `git pull --rebase` wrote conflict markers straight into
+   the file on disk.
+3. The push retry loop swallowed the failure — the step exited
+   successfully even when rebase/push failed — so the run proceeded to
+   `publish` against the corrupted file.
+
+### Fixes (all three layers)
+
+- **`.gitignore`**: `output/package-*.json` is no longer committed at all.
+  The intentional, committed transparency artifact (`output/topics/`) and
+  the images are unaffected — verified with a real `git add`/`ls-files`
+  dry run showing package files excluded and everything else still
+  tracked.
+- **Workflow commit step hardened**: on a failed rebase, `git rebase
+  --abort` restores a clean tree before retrying; a one-time
+  `git rm --cached --ignore-unmatch output/package-*.json` untracks
+  copies committed by the older workflow version; and if the push never
+  succeeds after 3 attempts, the step now **fails loudly** (`exit 1`)
+  instead of silently continuing with a possibly-corrupted tree.
+- **`main.py`**: a corrupt package file now produces a clear, actionable
+  diagnostic naming the likely cause and the fix, instead of a raw
+  traceback.
+
+### Verified
+
+- Reproduced the founder's exact error string from synthetic conflict
+  markers before writing any fix.
+- gitignore behavior verified with a real git dry run.
+- The new diagnostic verified against a conflict-markered file.
+- Full pipeline (prepare → Telegram publish with mocked API) re-run
+  end-to-end: passes.
+
+### One manual step for the existing repo
+
+The older workflow already committed package files to the repo. The
+hardened commit step untracks them automatically on its next run, but you
+can also do it once manually: `git rm --cached output/package-*.json`,
+commit, push.
+
+---
+
+# Changelog
+
 ## Instagram publishing replaced with Telegram publishing
 
 Per the founder's request, the publishing destination switched from

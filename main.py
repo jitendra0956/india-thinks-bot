@@ -131,7 +131,18 @@ def publish(slot: str) -> None:
         )
 
     with open(package_path) as f:
-        package = json.load(f)
+        try:
+            package = json.load(f)
+        except json.JSONDecodeError as exc:
+            raise SystemExit(
+                f"{package_path} is not valid JSON ({exc}). This usually "
+                f"means a git operation (e.g. a conflicted rebase) modified "
+                f"the file after 'prepare' wrote it. Package files are "
+                f"gitignored to prevent exactly this — check that "
+                f".gitignore includes 'output/package-*.json' and that no "
+                f"previously-committed copies remain tracked "
+                f"(git rm --cached output/package-*.json)."
+            )
 
     if "post_image_file" not in package:
         raise SystemExit("package.json is missing 'post_image_file' — did 'prepare' complete successfully?")
